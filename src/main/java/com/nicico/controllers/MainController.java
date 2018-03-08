@@ -19,7 +19,7 @@ Time: 1:05 PM
 Year: 2018
 */
 @Controller
-public class MainController {
+public class MainController  {
     @Autowired
     ProjectService projectService  ;
 
