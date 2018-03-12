@@ -25,7 +25,7 @@ public class MainController{
 
     final static Logger logger = Logger.getLogger(MainController.class);
 
-
+//test
     @RequestMapping("/")
     public String hello(Model model, @ModelAttribute("project") Project project) {
         if (project.getId() == 0) {
